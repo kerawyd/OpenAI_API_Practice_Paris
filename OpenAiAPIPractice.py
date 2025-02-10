@@ -4,7 +4,7 @@ import os
 from openai import OpenAI
 
 #My API Key: API Key hhandling and client initialization
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "___"
 
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
